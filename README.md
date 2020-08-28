@@ -42,7 +42,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 --------------------------------------------------------------
 
 ### 步骤 ###
-   <font size=2>看到下面这句了吗？？？？</font>
+   <font size=10>看到下面这句了吗？？？？</font>
    
    *** **有错误/问题请看**:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test) ***   
 
