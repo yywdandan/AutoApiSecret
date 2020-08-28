@@ -48,7 +48,9 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
    看到下面这句了吗？？？？
    
    。。。。。。。。。。。。。。。。。。。。。。。。
-    *** **有错误/问题请看**:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test) ***  
+   
+   *** **有错误/问题请看**:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test) ***  
+    
    。。。。。。。。。。。。。。。。。。。。。。。。
    
    看到了吗？
