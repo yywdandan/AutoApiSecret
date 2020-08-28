@@ -45,19 +45,13 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 
    >:blush: :blush: :blush: :blush: :blush: :blush: 
    
-   >看这里！！！！！
-   
-   >看到下面这句了吗？？？？
+   >请注意！请注意！请注意！
    
    >。。。。。。。。。。。。。。。。。。。。。。。。
    
    >*** **有错误/问题请看**:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test) ***  
    
    >。。。。。。。。。。。。。。。。。。。。。。。。
-   
-   >看到了吗？
-   
-   >看到没？
    
    >:anguished: :anguished: :anguished: :anguished: :anguished: :anguished:  
   
