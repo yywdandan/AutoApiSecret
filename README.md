@@ -42,6 +42,9 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 --------------------------------------------------------------
 
 ### 步骤 ###
+
+
+
    <font size=10>看到下面这句了吗？？？？</font>
    
    *** **有错误/问题请看**:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test) ***  
@@ -53,6 +56,10 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
    看？
    
    ？
+
+
+
+
    
 
 * 第一步，先大致浏览[原教程](https://blog.432100.xyz/index.php/archives/50/)，了解如何获取应用id、机密、refresh_token 3样东西，以方便接下来的操作。
