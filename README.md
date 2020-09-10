@@ -51,6 +51,8 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
    
    >*** **有错误/问题请看**:    [常见错误及解决办法/更新日志](https://github.com/wangziyingwen/Autoapi-test) ***  
    
+   >*** rclone下载坏了，请自行百度谷歌，官网好像是rclone.org
+   
    >。。。。。。。。。。。。。。。。。。。。。。。。
    
    >:anguished: :anguished: :anguished: :anguished: :anguished: :anguished:  
