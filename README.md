@@ -18,7 +18,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 * 原教程博主-黑幕（酷安id-Paran）：https://blog.432100.xyz/index.php/archives/50/
 * 普通版地址：https://github.com/wangziyingwen/AutoApi
 * 加密版地址（推荐）：https://github.com/wangziyingwen/AutoApiSecret
-* 模仿人为应用开发版（包含升级步骤）：https://github.com/wangziyingwen/AutoApiSR
+* 模仿人为应用开发版（包含升级步骤）：https://github.com/wangzyingwen/AutoApiSR
 * 超级版地址： https://github.com/wangziyingwen/AutoApiS
 * **常见错误及解决办法/更新日志**：https://github.com/wangziyingwen/Autoapi-test
 * 网页获取refresh_token小工具（不建议使用）：https://github.com/wangziyingwen/GetAutoApiToken
@@ -54,6 +54,9 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
    >*** rclone下载坏了，请自行百度谷歌，官网好像是[rclone.org](rclone.org)
    
    >*** 原教程/博客好像也坏了，看[视频教程](https://www.bilibili.com/video/av95688306/)吧，懒得补充，ORZ
+   
+   >*** [管理页面](https://portal.azure.com/)，或者直接[azure管理页面](add
+)，直接找注册应用
    
    >。。。。。。。。。。。。。。。。。。。。。。。。
    
