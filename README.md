@@ -53,6 +53,8 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
    
    >*** rclone下载坏了，请自行百度谷歌，官网好像是rclone.org
    
+   >*** 原教程/博客好像也坏了，看[视频教程](https://www.bilibili.com/video/av95688306/)吧，懒得补充，ORZ
+   
    >。。。。。。。。。。。。。。。。。。。。。。。。
    
    >:anguished: :anguished: :anguished: :anguished: :anguished: :anguished:  
