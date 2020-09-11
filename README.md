@@ -55,8 +55,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
    
    >*** 原教程/博客好像也坏了，看[视频教程](https://www.bilibili.com/video/av95688306/)吧，懒得补充，ORZ
    
-   >*** [管理页面](https://portal.azure.com/)，或者直接[azure管理页面](add
-)，直接找注册应用
+   >*** 注册应用的[azure管理页面](https://portal.azure.com/)，或者直接到[仪表板](https://aad.portal.azure.com/)，找到注册应用
    
    >。。。。。。。。。。。。。。。。。。。。。。。。
    
