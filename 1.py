@@ -23,7 +23,7 @@ api_list = [
     r'https://graph.microsoft.com/v1.0/users',
     r'https://graph.microsoft.com/v1.0/me/messages',
     r'https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messageRules',
-    r'https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messageRules',
+    r'https://graph.microsoft.com/v1.0/me/mailFolders/Inbox/messages/delta',
     r'https://graph.microsoft.com/v1.0/me/drive/root/children',
     r'https://graph.microsoft.com/v1.0/me/mailFolders',
     r'https://graph.microsoft.com/v1.0/me/outlook/masterCategories'
