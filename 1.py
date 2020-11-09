@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 import requests as req
 import json,sys,time
+import random
 #先注册azure应用,确保应用有以下权限:
 #files:	Files.Read.All、Files.ReadWrite.All、Sites.Read.All、Sites.ReadWrite.All
 #user:	User.Read.All、User.ReadWrite.All、Directory.Read.All、Directory.ReadWrite.All
@@ -14,6 +15,19 @@ import json,sys,time
 
 path=sys.path[0]+r'/1.txt'
 num1 = 0
+
+api_list = [
+    r'https://graph.microsoft.com/v1.0/me/drive/root',
+    r'https://graph.microsoft.com/v1.0/me/drive',
+    r'https://graph.microsoft.com/v1.0/drive/root',
+    r'https://graph.microsoft.com/v1.0/users',
+    r'https://graph.microsoft.com/v1.0/me/messages',
+    r'https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messageRules',
+    r'https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messageRules',
+    r'https://graph.microsoft.com/v1.0/me/drive/root/children',
+    r'https://graph.microsoft.com/v1.0/me/mailFolders',
+    r'https://graph.microsoft.com/v1.0/me/outlook/masterCategories'
+]
 
 def gettoken(refresh_token):
     headers={'Content-Type':'application/x-www-form-urlencoded'
@@ -42,43 +56,22 @@ def main():
     'Authorization':access_token,
     'Content-Type':'application/json'
     }
+    
+    random.shuffle(api_list)  # 执行洗牌算法，使得每次相邻调用的顺序不一致
+
     try:
-        if req.get(r'https://graph.microsoft.com/v1.0/me/drive/root',headers=headers).status_code == 200:
-            num1+=1
-            print("1调用成功"+str(num1)+'次')
-        if req.get(r'https://graph.microsoft.com/v1.0/me/drive',headers=headers).status_code == 200:
-            num1+=1
-            print("2调用成功"+str(num1)+'次')
-        if req.get(r'https://graph.microsoft.com/v1.0/drive/root',headers=headers).status_code == 200:
-            num1+=1
-            print('3调用成功'+str(num1)+'次')
-        if req.get(r'https://graph.microsoft.com/v1.0/users ',headers=headers).status_code == 200:
-            num1+=1
-            print('4调用成功'+str(num1)+'次')
-        if req.get(r'https://graph.microsoft.com/v1.0/me/messages',headers=headers).status_code == 200:
-            num1+=1
-            print('5调用成功'+str(num1)+'次')    
-        if req.get(r'https://graph.microsoft.com/v1.0/me/mailFolders/inbox/messageRules',headers=headers).status_code == 200:
-            num1+=1
-            print('6调用成功'+str(num1)+'次')    
-        if req.get(r'https://graph.microsoft.com/v1.0/me/mailFolders/Inbox/messages/delta',headers=headers).status_code == 200:
-            num1+=1
-            print('7调用成功'+str(num1)+'次')
-        if req.get(r'https://graph.microsoft.com/v1.0/me/drive/root/children',headers=headers).status_code == 200:
-            num1+=1
-            print('8调用成功'+str(num1)+'次')
-        if req.get(r'https://api.powerbi.com/v1.0/myorg/apps',headers=headers).status_code == 200:
-            num1+=1
-            print('8调用成功'+str(num1)+'次') 
-        if req.get(r'https://graph.microsoft.com/v1.0/me/mailFolders',headers=headers).status_code == 200:
-            num1+=1
-            print('9调用成功'+str(num1)+'次')
-        if req.get(r'https://graph.microsoft.com/v1.0/me/outlook/masterCategories',headers=headers).status_code == 200:
-            num1+=1
-            print('10调用成功'+str(num1)+'次')
-            print('此次运行结束时间为 :', localtime)
+        for api_url in api_list:
+            time.sleep(random.randrange(2, 12))
+            if req.get(api_url, headers=headers).status_code == 200:
+                print("调用成功: ", api_url)
+            else:
+                print("调用异常: ", api_url)
+
+        print('此次运行结束时间为: ', time.asctime(time.localtime(time.time())))
     except:
-        print("pass")
+        print("调用出现异常，pass")
         pass
-for _ in range(3):
+        
+for _ in range(random.randrange(3, 6)):
+    time.sleep(60 * random.randrange(1, 8))
     main()
