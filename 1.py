@@ -61,7 +61,7 @@ def main():
 
     try:
         for api_url in api_list:
-            time.sleep(random.randrange(2, 12))
+            time.sleep(random.randrange(2, 15))
             if req.get(api_url, headers=headers).status_code == 200:
                 print("调用成功: ", api_url)
             else:
@@ -72,6 +72,6 @@ def main():
         print("调用出现异常，pass")
         pass
         
-for _ in range(random.randrange(3, 6)):
-    time.sleep(1 * random.randrange(1, 8))
+for _ in range(random.randrange(2, 5)):
+    time.sleep(30 * random.randrange(1, 8))
     main()
